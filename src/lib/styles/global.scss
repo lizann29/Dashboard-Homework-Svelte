@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+:root {
+  --Font-Main: Noto Sans;
+}
+
+/* For Webkit Browsers */
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 10px; /* Optional for rounded corners */
+}
